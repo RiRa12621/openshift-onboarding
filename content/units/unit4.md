@@ -21,7 +21,7 @@ To make this measurable and actionable we will define an SLI for it.
 What is an SLI?
 SLI stands for Service Level Indicator. Let's take a quick look into the [Google SRE book chapter 4](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/)
 ```
-An SLI is a service level indicator—a carefully defined quantitative measure of some aspect of the level of service that is provided.
+An SLI is a service level indicator - a carefully defined quantitative measure of some aspect of the level of service that is provided.
 ```
 Now in our real world example, how would we approach this?
 The main questions are
