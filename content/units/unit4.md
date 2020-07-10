@@ -42,7 +42,7 @@ That's it for this task. We have established two SLIs:
 
 ## Task 2
 
-While defining an SLO soudns pretty tricky, this task should actually be pretty easy as we can make most of the things up since we don't have real users.
+While defining an SLO sounds pretty tricky, this task should actually be pretty easy as we can make most of the things up since we don't have real users.
 An SLO or Service Level Objective is basically just a given goal that you want to achieve for your SLIs over a given period.
 Let's assume we talk about a 28 day rolling window as the timeframe, just for the ease of it.
 
@@ -50,7 +50,7 @@ In Task 1 we found out what our users care about, now we have to ask ourselves, 
 * How many errors are acceptable?
 * How many slow requests are acceptable?
 
-This can be a bit abstract to think about in percentages but @metalmatze thankfully made [a tool](https://promtools.dev/) that translate a given percentage into time.
+This can be a bit abstract to think about in percentages but [Matthias Loibl](https://github.com/metalmatze/) thankfully made [a tool](https://promtools.dev/) that translate a given percentage into time.
 That way you can easily visualize how long in the 30 day window your users will not be able to access your service.
 
 Since not that many people are using our service and we don't really want to go oncall for it, 99% is fine for both our SLOs.
@@ -59,7 +59,7 @@ This is not very scientific and not production grade evaluation but should give 
 This means 99% of requests should be successfull AND 99% of requests should be sufficiently fast.
 
 
-Pro Tip: [promtools](also helps you to generate a prometheus query for this)
+Pro Tip: [promtools](https://promtools.dev/) also helps you to generate a prometheus query for this.
 
 That's it.
 We have defined two SLOs and two SLIs for our example service.
