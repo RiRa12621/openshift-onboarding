@@ -37,7 +37,7 @@ Our application however is probably not going to live a month so we just have to
 I would say 200ms for a response is a fair time and you don't really have a choice but to agree.
 
 That's it for this task. We have established two SLIs:
-* Proportion of erros
+* Proportion of errors
 * Proportion of sufficiently fast requests.
 
 ## Task 2
@@ -63,4 +63,3 @@ Pro Tip: [promtools](also helps you to generate a prometheus query for this)
 
 That's it.
 We have defined two SLOs and two SLIs for our example service.
-
