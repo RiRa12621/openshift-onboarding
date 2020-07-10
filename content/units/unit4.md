@@ -51,7 +51,7 @@ In Task 1 we found out what our users care about, now we have to ask ourselves, 
 * How many slow requests are acceptable?
 
 This can be a bit abstract to think about in percentages but @metalmatze thankfully made [a tool](https://promtools.dev/) that translate a given percentage into time.
-That way you can easily visualize how long in the 28 day window your users will not be able to access your service.
+That way you can easily visualize how long in the 30 day window your users will not be able to access your service.
 
 Since not that many people are using our service and we don't really want to go oncall for it, 99% is fine for both our SLOs.
 This is not very scientific and not production grade evaluation but should give you an understanding of how setting SLOs work.
