@@ -56,7 +56,9 @@ That way you can easily visualize how long in the 30 day window your users will 
 Since not that many people are using our service and we don't really want to go oncall for it, 99% is fine for both our SLOs.
 This is not very scientific and not production grade evaluation but should give you an understanding of how setting SLOs work.
 
-This means 99% of requests should be successfull AND 99% of requests should be sufficiently fast.
+This means: 
+* 99% of requests should be successfull 
+* 99% of requests should be sufficiently fast.
 
 
 Pro Tip: [promtools](https://promtools.dev/) also helps you to generate a prometheus query for this.
